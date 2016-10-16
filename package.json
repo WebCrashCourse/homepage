@@ -1,0 +1,50 @@
+{
+  "name": "wcc-homepage",
+  "version": "1.0.0",
+  "description": "webcrashcourse.org homepage",
+  "author": "Ilja Panic <hello@iljapanic.me>",
+  "license": "",
+  "contributors": [
+    {
+      "name": "Ilja Panic",
+      "email": "hello@iljapanic.me"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WebCrashCourse/homepage"
+  },
+  "standard": {
+    "globals": [
+      "$",
+      "Modernizr",
+      "location",
+      "moment"
+    ]
+  },
+  "devDependencies": {
+    "browser-sync": "*",
+    "del": "*",
+    "fs": "0.0.2",
+    "gulp": "*",
+    "gulp-autoprefixer": "*",
+    "gulp-cssnano": "*",
+    "gulp-data": "^1.2.1",
+    "gulp-group-css-media-queries": "*",
+    "gulp-htmlmin": "^2.0.0",
+    "gulp-imagemin": "*",
+    "gulp-jsoncombine": "^1.0.3",
+    "gulp-markdown": "^1.2.0",
+    "gulp-notify": "*",
+    "gulp-nunjucks-render": "*",
+    "gulp-optimize-js": "^1.0.3",
+    "gulp-sass": "*",
+    "gulp-sequence": "^0.4.5",
+    "gulp-sourcemaps": "*",
+    "gulp-uglify": "*",
+    "gulp-util": "*",
+    "gulp-watch": "^4.3.8",
+    "path": "^0.12.7",
+    "require-dir": "^0.3.0"
+  }
+}

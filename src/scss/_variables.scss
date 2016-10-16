@@ -1,0 +1,51 @@
+// TYPE
+
+$base-font: 'Ubuntu', 'Helvetica Neue','Segoe UI', 'Verdana', sans-serif !default;
+$monospace-font: 'Consolas', 'Monaco', 'Courier New', monospace !default;
+
+$heading: $base-font !default;
+$body: $base-font !default;
+$monospace: $monospace-font !default;
+
+$font-size: 1.8rem !default;
+$line-height: 2.8rem !default;
+$spacing: $line-height;
+
+$font-size--small: 1.4rem !default;
+$font-size--large: 2rem !default;
+
+
+// COLORS
+
+// dark shades
+$gray1: #3c3c3d !default;
+$gray2: #5a5a5b !default;
+$gray3: #7d7d7e !default;
+
+// light shades
+$gray4: #cdcdce !default;
+$gray5: #dededf !default;
+$gray6: #efeff0 !default;
+
+$white: #ffffff !default;
+
+// primary colors
+$primary: #f45844 !default;
+$primary-dark:  darken($primary, 10%) !default;
+$primary-light: lighten($primary, 10%) !default;
+
+$link: $gray5 !default;
+$link--visited: $link !default;
+$link--hover: $gray6 !default;
+$link--active: #D44076 !default;
+
+
+// social
+$facebook-blue: #3b5998;
+$instagram-maroon: #cd486b;
+
+
+// RESPONSIVE
+$S: '(min-width:320px)';
+$M: '(min-width:768px)';
+$L: '(min-width:1024px)';

@@ -1,0 +1,63 @@
+{
+  "root": {
+    "src": "./src",
+    "dest": "./dist"
+  },
+
+  "tasks": {
+
+    "browserSync": {
+      "server": {
+        "baseDir": "./dist"
+      }
+    },
+
+    "css": {
+      "src": "scss",
+      "dest": "assets/css",
+      "autoprefixer": {
+        "browsers": ["last 6 version"]
+      },
+      "extensions": ["sass", "scss", "css"]
+    },
+
+    "fonts" : {
+      "src": "fonts",
+      "dest": "fonts"
+    },
+
+    "html": {
+      "src": "html",
+      "dest": "./",
+      "dataSrc": "html/_data",
+      "htmlmin": {
+        "collapseWhitespace": true
+      },
+      "extensions": ["html", "njk", "json"]
+    },
+
+    "include": {
+      "src": "include",
+      "dest": "./",
+      "extensions": ["*"]
+    },
+
+    "images": {
+      "src": "images",
+      "dest": "assets/images",
+      "extensions": ["jpg", "png", "svg", "gif", "jpeg", "ico"]
+    },
+
+    "markdown": {
+      "src": "markdown",
+      "dest": "_text",
+      "extensions": ["md", "markdown", "txt"]
+    },
+
+    "scripts": {
+      "src": "javascript",
+      "dest": "assets/js",
+      "extensions": ["js","jsx"]
+    }
+  }
+}
