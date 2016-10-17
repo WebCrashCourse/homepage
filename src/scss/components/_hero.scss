@@ -41,12 +41,12 @@
 }
 
 .hero__body {
-  height: 60%;
-  height: 60vh;
+  height: 70%;
+  height: 70vh;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  align-content: center;
+  // align-content: center;
   justify-content: center;
   width: 100%;
   width: 100vw;
@@ -54,8 +54,8 @@
 }
 
 .hero__cta {
-  height: 10%;
-  height: 10vh;
+  // height: 10%;
+  // height: 10vh;
 }
 
 .hero__footer {
@@ -91,10 +91,16 @@
   max-width: 56rem;
   margin: 0 auto;
   padding: 0 0.5rem;
+  margin-top: 8rem;
 }
 
 .hero__cta {
   width: 100%;
+}
+
+.hero__cta-note {
+  margin-top: 0.5rem;
+  font-size: $font-size--small;
 }
 
 .colophon {
