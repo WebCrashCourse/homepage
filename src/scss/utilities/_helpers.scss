@@ -1,0 +1,10 @@
+.f-small {
+  font-size: $font-size--small;
+  @include MQ(M) {
+    font-size: $font-size--small + 0.2rem;
+  }
+}
+
+@mixin font-small {
+  @extend .f-small;
+}
