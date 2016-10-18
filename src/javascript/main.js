@@ -1,11 +1,13 @@
 $(document).ready(function () {
-  $('.hero').removeClass('is-loading')
+  var heroEl = $('.hero')
+  heroEl.removeClass('is-loading')
+  heroEl.addClass('is-loaded')
 
-  $('.hero').vide({
+  heroEl.vide({
     mp4: 'assets/video/For_Wes.mp4',
     webm: 'assets/video/For_Wes.webm',
     ogv: 'assets/video/For_Wes.ogv',
-    poster: 'assets/images/hero.jpg'
+    poster: 'assets/images/For_Wes.jpg'
   }, {
     volume: 0,
     playbackRate: 0.65,

@@ -12,7 +12,7 @@
 
   <meta property="og:title" content="{{ site.title }}" />
   <meta property="og:url" content="http://webcrashcourse.org" />
-  <meta property="og:image" content="http://webcrashcourse.org/assets/hero.jpg" />
+  <meta property="og:image" content="http://webcrashcourse.org/assets/images/hero.jpg" />
   <meta property="og:site_name" content="{{ site.title }}" />
   <meta property="og:description" content="{{ site.description }}" />
 
@@ -41,7 +41,9 @@
         </header>
 
         <div class="hero__body">
-          <p class="hero__headline">Nulla vitae elit libero, a pharetra augue. Maecenas faucibus mollis interdum. Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+          <div class="hero__headline">
+            {% include "_text/headline.html" %}
+          </div>
           <div class="hero__cta">
             <a href="http://google.com" target="_blank" class="btn">Sign up for a workshop</a>
             <div class="hero__cta-note">Currently held in <strong>Prague, Czech Republic</strong></div>
@@ -49,7 +51,7 @@
         </div>
 
         <footer class="hero__footer">
-          <p class="colophon">For questions, setting up a private workshop and other enquiries please write an email at <a href="mailto:info@webcrashcourse.org" target="_blank">info@webcrashcourse.org</a></p>
+          <p class="colophon">For questions, arranging up a private workshop and other enquiries please write an email at <a href="mailto:info@webcrashcourse.org" target="_blank">info@webcrashcourse.org</a></p>
         </footer>
       </article>
     </div>

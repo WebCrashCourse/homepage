@@ -7,7 +7,7 @@
   text-align: center;
   text-shadow: 0 2px 3px $gray1;
 
-  &:after {
+  &:before {
     content: '';
     position: absolute;
     left: 0;
@@ -24,6 +24,7 @@
   background-image: url('../images/For_Wes.jpg');
   background-size: cover;
 }
+
 
 .hero__content {
   position: relative;
@@ -96,7 +97,11 @@
   max-width: 56rem;
   margin: 0 auto;
   padding: 0 0.5rem;
-  margin-top: 8rem;
+  margin-top: 4rem;
+
+  p:first-of-type {
+    margin-top: 0.75rem;
+  }
 }
 
 .hero__cta {
@@ -105,7 +110,7 @@
 }
 
 .hero__cta-note {
-  margin-top: 0.5rem;
+  margin-top: 0.75rem;
   font-size: $font-size--small;
 }
 
