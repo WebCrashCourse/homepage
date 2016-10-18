@@ -6,9 +6,15 @@
   {% include "_shared/head.html" %}
 
   <!-- meta information -->
-  <title>Web Crash Course</title>
-  <link rel="author" href="http://webcrashcourse.org" />
-  <meta name="description" content="Facilitating intense ad-hoc workshops where beginners learn to understand and use modern Web technologies from industry professionals.">
+  <title>{{ site.title }}</title>
+  <link rel="author" href="{{ site.author }}" />
+  <meta name="description" content="{{ site.description }}">
+
+  <meta property="og:title" content="{{ site.title }}" />
+  <meta property="og:url" content="http://webcrashcourse.org" />
+  <meta property="og:image" content="http://webcrashcourse.org/assets/hero.jpg" />
+  <meta property="og:site_name" content="{{ site.title }}" />
+  <meta property="og:description" content="{{ site.description }}" />
 
 </head>
 
@@ -19,7 +25,7 @@
   <![endif]-->
 
   <main class="main" role="main">
-    <div class="hero">
+    <div class="hero is-loading">
       <article class="hero__content">
 
         <header class="hero__header">
@@ -55,6 +61,9 @@
   <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-1.12.4.min.js"><\/script>')</script>
   <script type="text/javascript" src="assets/js/vendor/jquery.vide.min.js"></script>
   <script type="text/javascript" src="assets/js/main.js"></script>
+
+  <script src="assets/js/vendor/viewport-units-buggyfill.js"></script>
+  <script>window.viewportUnitsBuggyfill.init();</script>
 
   <!-- Google Analytics -->
   <script>

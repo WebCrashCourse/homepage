@@ -20,6 +20,11 @@
   }
 }
 
+.hero.is-loading {
+  background-image: url('../images/For_Wes.jpg');
+  background-size: cover;
+}
+
 .hero__content {
   position: relative;
   z-index: 100;
@@ -96,6 +101,7 @@
 
 .hero__cta {
   width: 100%;
+  // margin-top: 8rem;
 }
 
 .hero__cta-note {
