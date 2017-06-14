@@ -1,0 +1,11 @@
+.footer {
+  padding: $space*2 $space/2;
+
+}
+
+.colophon {
+  @include font-small;
+  max-width: 42rem;
+  line-height: 1.45;
+  text-shadow: none;
+}

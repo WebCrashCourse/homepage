@@ -17,4 +17,7 @@ $(document).ready(function () {
     posterType: 'jpg',
     resizing: true
   })
+
+  $("#mce-EMAIL").focus();
+
 })

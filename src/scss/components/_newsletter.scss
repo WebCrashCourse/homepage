@@ -1,0 +1,50 @@
+.newsletter {
+
+  .email-field input {
+    border-radius: 0.25rem;
+    padding: 0.65rem $spacing/8;
+    background-color: white;
+    border: 1px solid $gray1;
+    text-align: center;
+    line-height: 1;
+    font-size: 1.8rem;
+    min-width: 24rem;
+    transition: all 0.35s ease-in-out;
+
+    &:focus {
+      outline-color: $primary;
+      background-color: white;
+    }
+
+    @include placeholder {
+      color: lighten($gray3, 25%);
+    }
+  }
+
+  .city-field {
+    margin-top: $spacing*0.75;
+  }
+
+  .city-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    li {
+      display: inline-block;
+      margin: 0 $spacing;
+      line-height: 1;
+
+      label {
+        margin-left: $spacing/4;
+        vertical-align: middle;
+        line-height: 1;
+      }
+    }
+  }
+
+  .submit-button {
+    margin-top: $spacing;
+  }
+
+}

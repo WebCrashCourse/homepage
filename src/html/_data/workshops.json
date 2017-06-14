@@ -1,0 +1,26 @@
+{
+  "workshops" : [
+    {
+      "place": "Praha, Czech Republic",
+      "venue": "Studio ALTA",
+      "venue_address": "http://www.altart.cz/",
+      "venu__note": "",
+      "dates" : [
+        {
+          "date" : "29/11/2016",
+          "language": "czech"
+        },
+        {
+          "date" : "1/12/2016"
+        }
+      ],
+    },
+    {
+      "date": "30/5/2016",
+      "time": "19:30",
+      "location": "Studio ALTA",
+      "location_link": "http://www.altart.cz/",
+      "place": "Praha"
+    }
+  ]
+}
